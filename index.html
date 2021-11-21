@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <!--Meta information and title-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>SIT725 Prac 1</title>
+    <meta name="author" content="James Nemecek">
+    <meta name="description" content="First web page for SIT725">
+    
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 id="heading" class="center-align">SIT725 Prac 1</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12">
+                <p>Check to see whether an integer value is a odd or even</p>
+            </div>
+        </div>
+        <div class="row">
+            <form class="col s12">
+                <div class="input-field col s4">
+                    <input placeholder="Enter an integer value" id="inputValue" type="text" class="validate">
+                    <label for="inputValue">Input Value</label>
+                </div>
+                <div class="col s4">
+                    <a class="waves-effect waves-light btn-large" onclick="oddEvenCheck()">Check</a>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <p id="output">Haven't yet entered a value</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
